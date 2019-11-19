@@ -201,3 +201,37 @@ button {
 .img {
   height: 50px;
 }
+body {
+  line-height: 1.5;
+  width: 80%;
+  margin: 10%;
+}
+body .team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .team-container .info-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .team-container .info-boxes .person-info {
+  width: 17%;
+  justify-content: space-evenly;
+  margin: 1%;
+  border: 2px solid #ffbea3;
+  padding: 1%;
+  border-radius: 10px;
+}
+body .team-container .info-boxes img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+h2 {
+  color: black;
+  font-family: 'Russo One', sans-serif;
+}
