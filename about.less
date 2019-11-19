@@ -1,24 +1,53 @@
 
 
 
+body{
+    height:300px;
+   max-width: 800px; 
+   width:100%; 
+  margin-left: 590px;
+
+
 .team-container{
-    display:flex;
-    flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
     
 
-    .box{
-    justify-content: space-evenly;
-    margin: 2%;
-    border: 1px solid @second-color;
-    padding: 1%;
-    border-radius: 8px;
+    .info-boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .person-info{
+            width: 17%;
+           justify-content: space-evenly;
+            margin: 1%;
+           border: 2px solid @second-color;
+           padding: 1%;
+          border-radius: 10px;
+        }
+    
 
 
-    h2{
-        color: black;
-        font-family:'Russo One', sans-serif;
-    }// h2 closes//
+    img{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    
     }//box closes//
 }// team container closes//
+}//body closes//
+
+h2{
+    color: black;
+    font-family:'Russo One', sans-serif;
+}// h2 closes//
+
