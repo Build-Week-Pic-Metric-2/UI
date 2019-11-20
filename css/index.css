@@ -196,15 +196,14 @@ header {
   justify-content: space-around;
 }
 .team-container .info-boxes button {
-  height: 50px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: white;
   margin: auto;
-  background: #b983b9;
+  background: #ab93c9;
   border: 1px solid white;
 }
 .team-container .info-boxes .person-inforow1 {
@@ -250,7 +249,7 @@ header {
   border-radius: 50px;
 }
 .team-container .info-boxes .box h3 {
-  color: #ab93c9;
+  color: white;
   font-family: 'Russo One', sans-serif;
   font-size: 1rem;
 }
