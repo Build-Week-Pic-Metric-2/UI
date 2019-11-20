@@ -206,14 +206,20 @@ header {
   font-size: 1.5rem;
   padding: 1%;
 }
-.pictures-container {
+.row {
   display: flex;
-  background-color: #ab93c9;
-  max-width: 100%;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
-.pictures-container .pic {
-  max-width: 50%;
-  margin: 1%;
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 .team-container {
   background-color: #ab93c9;

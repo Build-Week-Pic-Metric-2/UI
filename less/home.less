@@ -62,14 +62,21 @@ header{
     }
 
   }
-  .pictures-container{
-    display:flex;
-    background-color:@background-color;
-    max-width:100%;
-
-    .pic{
-      max-width: 50%;
-      margin:1%;
-    }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
-
+  
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
