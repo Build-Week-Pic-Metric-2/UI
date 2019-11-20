@@ -237,6 +237,7 @@ header {
 }
 .team-container .info-boxes img {
   width: 100%;
+  padding: 2%;
 }
 h2 {
   color: #d698b9;
