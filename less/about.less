@@ -12,6 +12,21 @@
     .info-boxes{
         display: flex;
         justify-content: space-around;
+
+
+        button {
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            
+            color: white;
+            margin:auto;
+            background: rgb(185, 131, 185);
+            border: 1px solid white;
+        }
         
         .person-inforow1{
             display:flex;
@@ -58,9 +73,16 @@
     
     
         .box{
-        border: 1px solid @main-color;
+        border: 3px solid @main-color;
         margin:2%;
         padding: 1%;
+        border-radius: 50px;
+
+        h3 {
+            color: @background-color;
+            font-family:'Russo One', sans-serif;
+            font-size: 1rem;
+        }
        
     }
 
@@ -68,6 +90,7 @@
     img{
         width:100%;
         padding:2%;
+        border-radius: 50px;
     }
 
 
@@ -77,9 +100,10 @@
 //}//body closes//
 
 h2{
-    color: @main-color;
+    color: white;
     font-family:'Russo One', sans-serif;
     text-align: center;
     font-size: 2rem;
+ 
 }// h2 closes//
 
