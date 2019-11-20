@@ -2,6 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
 html,
 body,
 div,
@@ -126,28 +130,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-  width: auto;
-  height: 800px;
-}
-navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 35px;
-  font-weight: bold;
-  list-style-type: none;
-  height: 65px;
-  width: 100%;
-  margin: auto;
-  padding: 0;
-  overflow: hidden;
-  border-bottom: dashed 2px black;
+  justify-content: space-evenly;
+}
+nav .img-logo {
+  width: 3%;
 }
 li {
   display: flex;
@@ -159,34 +147,34 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
+header {
+  background-image: url('../images/back2.0.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  max-width: 800px;
-  width: 100%;
-  margin-left: 590px;
+  height: 80%;
 }
-h1 {
+.container h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   font-family: 'Russo One', sans-serif;
-  font-size: 65px;
-  height: 100px;
-  width: 500px;
-  padding: 20px;
-  margin: auto;
+  font-size: 30px;
 }
-button {
+.container button {
   height: 50px;
   border-radius: 10px;
   display: flex;
@@ -198,27 +186,17 @@ button {
   background: #b983b9;
   border: solid 1px #111;
 }
-.img {
-  height: 50px;
+.team-container {
+  background-color: #ab93c9;
 }
-body {
-  line-height: 1.5;
-  width: 80%;
-  margin: 10%;
-}
-body .team-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .team-container .info-boxes {
+.team-container .info-boxes {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-body .team-container .info-boxes .person-info {
+.team-container .info-boxes .person-info {
   width: 17%;
   justify-content: space-evenly;
   margin: 1%;
@@ -226,7 +204,7 @@ body .team-container .info-boxes .person-info {
   padding: 1%;
   border-radius: 10px;
 }
-body .team-container .info-boxes img {
+.team-container .info-boxes img {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -234,4 +212,5 @@ body .team-container .info-boxes img {
 h2 {
   color: black;
   font-family: 'Russo One', sans-serif;
+  text-align: center;
 }

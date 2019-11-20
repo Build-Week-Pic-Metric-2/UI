@@ -1,31 +1,19 @@
 
 
 
-body{
-   line-height: 1.5; 
-   width: 80%;
-    margin: 10%;
- 
+
 
 
 .team-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-
+    background-color: @background-color;
+       
     
-
     .info-boxes{
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-
+        
         .person-info{
-            width: 17%;
-           justify-content: space-evenly;
+            display:flex;
             margin: 1%;
            border: 2px solid @second-color;
            padding: 1%;
@@ -44,10 +32,12 @@ body{
     
     }//box closes//
 }// team container closes//
-}//body closes//
+//}//body closes//
 
 h2{
-    color: black;
+    color: @main-color;
     font-family:'Russo One', sans-serif;
+    text-align: center;
+    font-size: 2rem;
 }// h2 closes//
 
