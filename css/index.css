@@ -142,6 +142,11 @@ nav {
 nav .img-logo {
   width: 3%;
 }
+@media (max-width:500px) {
+  nav .img-logo {
+    display: none;
+  }
+}
 li {
   display: flex;
   flex-direction: row;
@@ -195,6 +200,11 @@ header {
   background: #ab93c9;
   border: 1px solid white;
 }
+@media (max-width:500px) {
+  .container button {
+    display: none;
+  }
+}
 .middle-container {
   width: 100%;
   height: 100%;
@@ -241,6 +251,11 @@ header {
   background: #ab93c9;
   border: 1px solid white;
 }
+@media (max-width:500px) {
+  .team-container .info-boxes button {
+    display: none;
+  }
+}
 .team-container .info-boxes .person-inforow1 {
   display: flex;
   flex-direction: column;
@@ -277,11 +292,21 @@ header {
   border-radius: 10px;
   text-align: center;
 }
+@media (max-width:500px) {
+  .team-container .info-boxes {
+    width: 100%;
+  }
+}
 .team-container .info-boxes .box {
   border: 3px solid #d698b9;
   margin: 2%;
   padding: 1%;
   border-radius: 50px;
+}
+@media (max-width:500px) {
+  .team-container .info-boxes .box {
+    border: none;
+  }
 }
 .team-container .info-boxes .box h3 {
   color: white;

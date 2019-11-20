@@ -25,7 +25,10 @@
             margin:auto;
             background: @background-color;
             border: 1px solid white;
-            
+            @media@mobile{
+                display:none;
+                
+            }
         }
         
         .person-inforow1{
@@ -68,15 +71,22 @@
           border-radius: 10px;
           text-align: center;
         }
+        @media@mobile{
+                width:100%;
+             }
+
     
     
     
     
         .box{
-        border: 3px solid @main-color;
+         border: 3px solid @main-color;
         margin:2%;
         padding: 1%;
         border-radius: 50px;
+         @media@mobile{
+             border: none;
+         }
 
         h3 {
             color: white;
@@ -91,8 +101,9 @@
         width:100%;
         padding:2%;
         border-radius: 50px;
+    
+    
     }
-
 
     
     }//box closes//
@@ -107,3 +118,4 @@ h2{
  
 }// h2 closes//
 
+ 
