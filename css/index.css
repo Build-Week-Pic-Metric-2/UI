@@ -188,29 +188,29 @@ header {
 }
 .team-container {
   background-color: #ab93c9;
+  height: 80%;
 }
 .team-container .info-boxes {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .team-container .info-boxes .person-info {
-  width: 17%;
-  justify-content: space-evenly;
+  width: 30%;
   margin: 1%;
   border: 2px solid #ffbea3;
   padding: 1%;
   border-radius: 10px;
+  text-align: center;
+}
+.team-container .info-boxes .box {
+  border: 1px solid black;
 }
 .team-container .info-boxes img {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 h2 {
-  color: black;
+  color: #d698b9;
   font-family: 'Russo One', sans-serif;
   text-align: center;
+  font-size: 2rem;
 }
