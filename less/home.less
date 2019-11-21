@@ -30,21 +30,16 @@ header{
    }
 
     button {
-    height: 50px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-display: 'Russo One', sans-serif;
-    
-    color: white;
-    margin:auto;
-    background: @background-color;
-    border: 1px solid white;
+    .button-home();
     @media@mobile{
       display: none;
-   }
+    }
+      button:hover {
+        color: @background-color;
+        background-color:white;
+
+      }
+   
 
     }//button closes//
   }// container closes//
