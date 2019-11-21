@@ -1,38 +1,41 @@
 //about mixins//
 
-
-
-
-
-
-
-
-
-
-
-
-//contact mixins//
-.type-submit(){
-    background-color: @button-color;
-    color: @background-color;
-    padding: 12px 20px;
-    border:none;
-    border-radius: 5px;
-    cursor:zoom-in;
+.button-about{
+  border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            
+            color: white;
+            margin:auto;
+            background: @background-color;
+            border: 1px solid white;
 }
-.containers(){
-    border-radius: 5px;
-    background-color: @second-color;
-    padding: 2rem;
-}
-.type-text(){
-  width: 100%; 
-  padding: 12px;  
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
+ .rows {
+      display:flex;
+      flex-direction: column;
+      width: 20%;
+      margin: 1%;
+      padding: 1%;
+      border-radius: 10px;
+      text-align: center;
+ }
 
-}
+ .boxes{
+  margin:2%;
+  padding: 1%;
+  border-radius: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
