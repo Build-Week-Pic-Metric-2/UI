@@ -250,12 +250,7 @@ header {
   background: #ab93c9;
   border: 1px solid white;
 }
-@media (max-width:500px) {
-  .container button {
-    display: none;
-  }
-}
-.container button button:hover {
+.containerbutton:hover {
   color: #ab93c9;
   background-color: white;
 }
