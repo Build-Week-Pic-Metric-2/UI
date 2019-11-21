@@ -47,6 +47,7 @@
   margin: auto;
   background: #ab93c9;
   border: 1px solid white;
+  cursor: pointer;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -214,6 +215,17 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.foot {
+  width: 100%;
+  height: 80%;
+  color: black;
+  background: white;
+  padding: 20px 0;
+  border: 5px double #ffbea3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header {
   background-image: url('../images/back2.0.jpg');
   background-repeat: no-repeat;
@@ -249,8 +261,9 @@ header {
   margin: auto;
   background: #ab93c9;
   border: 1px solid white;
+  cursor: pointer;
 }
-.containerbutton:hover {
+.container buttonbutton:hover {
   color: #ab93c9;
   background-color: white;
 }
@@ -280,17 +293,6 @@ header {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-.foot {
-  width: 100%;
-  height: 80%;
-  color: black;
-  background: white;
-  padding: 20px 0;
-  border: 5px double #ffbea3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .team-container {
   background-color: #ab93c9;
